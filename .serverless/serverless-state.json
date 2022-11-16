@@ -664,7 +664,7 @@
       "appconfig": {
         "readOnly": true,
         "enableApiKeyAuth": false,
-        "jsonFile": "/home/ricardo/Projects/sample-posts/db.json",
+        "jsonFile": "../db.json",
         "enableJSONValidation": true,
         "enableSwagger": true,
         "logLevel": "info",
@@ -791,7 +791,7 @@
         "exclude": [
           "node_modules/aws-sdk/**"
         ],
-        "artifact": "/home/ricardo/Projects/sample-posts/.serverless/sample-posts.zip",
+        "artifact": "sample-posts.zip",
         "artifactDirectoryName": "serverless/sample-posts/prod/1668523856172-2022-11-15T14:50:56.172Z"
       },
       "custom": {
@@ -808,7 +808,7 @@
       }
     },
     "isDashboardMonitoringPreconfigured": false,
-    "artifact": "/home/ricardo/Projects/sample-posts/.serverless/sample-posts.zip"
+    "artifact": "sample-posts.zip"
   },
   "package": {
     "individually": false,

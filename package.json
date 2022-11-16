@@ -30,8 +30,8 @@
   ],
   "scripts": {
     "build": "webpack --mode=production",
-    "deploy": "npm run build && sls deploy",
-    "start": "npm run build && sls offline"
+    "deploy": "npm run build && npx sls deploy",
+    "start": "npm run build && npx sls offline"
   },
   "dependencies": {
     "express": "4.17.1",
@@ -42,6 +42,7 @@
     "@types/express": "4.17.8",
     "@types/express-serve-static-core": "4.17.13",
     "@types/node": "10.17.13",
+    "@types/pino-std-serializers": "^4.0.0",
     "aws-sdk": "2.814.0",
     "copy-webpack-plugin": "7.0.0",
     "lerna": "3.22.1",
@@ -57,7 +58,7 @@
   "bundleDependencies": false,
   "deprecated": false,
   "gitHead": "e11bc2db3cd41e27a9019182cf41f17ec03a9da7",
-    "_from": "json-serverless-template@^1.6.16",
+  "_from": "json-serverless-template@^1.6.16",
   "_id": "json-serverless-template@1.6.16",
   "_inBundle": false,
   "_integrity": "sha512-dJ1xDLrdmFT59FzkflHGZ0BsO9wqNnmy1SYmoEwY55mZmsO32C4yROHGEtGtqCLF2UAY5GAO+U6qoXdDLL4dkA==",
@@ -101,5 +102,5 @@
   "_resolved": "https://registry.npmjs.org/json-serverless-template/-/json-serverless-template-1.6.16.tgz",
   "_shasum": "d5a9c80def738131f307b6dfb74d6b0b51f0bc41",
   "_spec": "json-serverless-template@^1.6.16",
-  "_where": "/home/ricardo/.nvm/versions/node/v14.19.0/lib/node_modules/json-serverless"
+  "_where": "npx json-serverless"
 }

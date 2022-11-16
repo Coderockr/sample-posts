@@ -1,7 +1,7 @@
 {
   "readOnly": true,
   "enableApiKeyAuth": false,
-  "jsonFile": "/home/ricardo/Projects/sample-posts/db.json",
+  "jsonFile": "db.json",
   "enableJSONValidation": true,
   "enableSwagger": true,
   "logLevel": "info",
